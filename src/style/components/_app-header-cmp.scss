@@ -1,0 +1,184 @@
+.app-header {
+    position: fixed;
+    top: 0;
+    line-height: 50px;
+    width: 100vw;
+    z-index: 10;
+
+    .header-container {
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 22px 0 26px;
+
+        .logo {
+            font-size: 1.2em;
+            height: 60px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .small-logo {
+            font-size: 1.2em;
+            height: 60px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+
+        .nav-bar {
+            margin-left: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            span .link {
+                display: block;
+                text-align: center;
+                font-family: quicksand-semiBold, sans-serif;
+                font-size: 0.7em;
+                height: 42px;
+                letter-spacing: 0.1em;
+                padding: 0 4px;
+                position: relative;
+                text-decoration: none;
+                text-transform: uppercase;
+                transition: all 0.5s ease;
+                -webkit-transition: all 0.5s ease;
+
+                /* Animated Bottom Line */
+                &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 0%;
+                    height: 2px;
+                    bottom: -2px;
+                    background: $mainTraPurple;
+                }
+
+                &::before {
+                    left: 0;
+                    transition: 0.5s;
+                }
+
+                &::after {
+                    background: $mainTraPurple;
+                    right: 0;
+                    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+                }
+
+                &:hover {
+                    /* border-bottom: 1px solid rgb(28, 121, 184); */
+                    color: $mainTraPurple;
+                    transition: all 1s ease;
+                    -webkit-transition: all 1s ease;
+                    &::before {
+                        background: $mainTraPurple;
+                        width: 100%;
+                        transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+                    }
+
+                    &::after {
+                        background: transparent;
+                        width: 100%;
+                        /* transition: 0s; */
+                    }
+                }
+            }
+        }
+    }
+
+    // .menu-btn {
+    //     position: relative;
+    //     justify-content: center;
+    //     align-items: center;
+    //     width: 55px;
+    //     height: 55px;
+    //     cursor: pointer;
+    //     transition: all 0.5s ease-in-out;
+
+    //     .menu-btn-burger {
+    //         width: 34px;
+    //         height: 4px;
+    //         border-radius: 5px;
+    //         box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    //         transition: all 0.5s ease-in-out;
+    //         &::before,
+    //         &::after {
+    //             content: "";
+    //             position: absolute;
+    //             width: 34px;
+    //             height: 4px;
+    //             border-radius: 5px;
+    //             box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    //             transition: all 0.5s ease-in-out;
+    //         }
+    //         &::before {
+    //             transform: translateY(-16px);
+    //         }
+    //         &::after {
+    //             transform: translateY(16px);
+    //         }
+    //     }
+    //     /* ANIMATION */
+    //     .open-x {
+    //         transform: translateX(-50px);
+    //         background: transparent;
+    //         box-shadow: none;
+    //         &::before {
+    //             transform: rotate(45deg) translate(35px, -35px);
+    //         }
+    //         &::after {
+    //             transform: rotate(-45deg) translate(35px, 35px);
+    //         }
+    //     }
+    // }
+}
+
+
+@media screen and (min-width: 460px) {
+    .header-container {
+        .logo {
+            display: block;
+        }
+        .small-logo {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    .header-container {
+        .logo {
+            display: none;
+        }
+        .small-logo {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 285px) {
+    .header-container {
+        span .link {
+            margin-left: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .header-container {
+        span .link {
+            margin-left: 4px;
+        }
+    }
+}

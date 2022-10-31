@@ -1,0 +1,58 @@
+{
+    "my-projects": [
+        {
+            "name": "Tasko ",
+            "description": "is a task management Web App that organizes your ideas into boards, based on Trello. this is my Bootcamp graduation project that was Written together with my two awesome teammates. We tried our best to make a pixel-perfect Trello clone and implemented most of the features that Trello has. The app is based on Vue.js / Vite for the frontend. For the backend, we used Node.js with Express and Socket.io for real-time updates.",
+            "img-title": "tasko-web.png",
+            "technologies": [
+                "HTML",
+                "Sass",
+                "JavaScript",
+                "VUE",
+                "Vite",
+                "Vuex",
+                "Node.js",
+                "MongoDB"
+            ],
+            "Links": {
+                "website": "https://tasko-proj.herokuapp.com/",
+                "github": "https://github.com/isabelmill/Tasko-Front-End"
+            }
+        },
+        {
+            "name": "Infocrypt ",
+            "description": "This is my first project in React. It is a platform where you can see information about digital currencies and transfer coins to your contacts. In addition, there is CRUD on the contacts where you can add, update, and delete them. Check out trading up-to-date cryptocurrency data such as current price or relevant news. For this project to work I used the 'Alpha Vantage' API from rapid-api.",
+            "img-title": "infocrypt-web.png",
+            "technologies": [
+                "HTML",
+                "Sass",
+                "JavaScript",
+                "React",
+                "redux"
+            ],
+            "Links": {
+                "website": "https://www.w3schools.com/",
+                "github": "https://github.com/AnnaBalinov/Infocrypt"
+            }
+        },
+        {
+            "name": "Dogstegram ",
+            "description": "is a task management Web App that organizes your ideas into boards, based on Trello. this is my Bootcamp graduation project that was Written together with my two awesome teammates. We tried our best to make a pixel-perfect Trello clone and implemented most of the features that Trello has. The app is based on Vue.js / Vite for the frontend. For the backend, we used Node.js with Express and Socket.io for real-time updates.",
+            "img-title": "tasko-web.png",
+            "technologies": [
+                "HTML",
+                "Sass",
+                "JavaScript",
+                "VUE",
+                "Vite",
+                "Vuex",
+                "Node.js",
+                "MongoDB"
+            ],
+            "Links": {
+                "website": "https://www.w3schools.com/",
+                "github": "https://www.eol.co.il/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,173 @@
+.about-cmp {
+    .about-container {
+        display: flex;
+        border-radius: 8px;
+        margin: 22px 22px 0 22px;
+        background-color: $exClearGray;
+
+        .my-img {
+            img {
+                width: 100%;
+                height: 100%;
+                border-bottom-left-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+        }
+
+        .description {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+            .about-me {
+                margin-bottom: 18px;
+                line-height: 1.4rem;
+            }
+
+            .skills {
+                display: block;
+
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    li {
+                        padding: 6px 10px 6px 10px;
+                        margin-right: 4px;
+                        margin-top: 4px;
+                        background-color: $clearTraPurple;
+                        border-radius: 4px;
+                        text-align: center;
+                        cursor: default;
+
+                        &:hover {
+                            background-color: $mediumTraPurple;
+                        }
+                    }
+                }
+            }
+
+            .resume {
+                margin-top: auto;
+                padding-top: 22px;
+                display: flex;
+
+                a {
+                    transition: 0.3s;
+                    font-family: quicksand-semibold, sans-serif;
+
+                    &:hover {
+                        color: $mainTraPurple;
+                    }
+                }
+
+                .social-links {
+                    margin-left: auto;
+
+                    a {
+                        margin-left: 12px;
+                        padding: 10px 14px;
+                        border-radius: 50%;
+                        background-color: $mediumPurple;
+                        transition: 0.3s;
+
+                        &:hover {
+                            background-color: $clearPurple;
+                        }
+
+                        i {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-container {
+        font-size: 0.8rem;
+
+        .my-img {
+            width: 25%;
+        }
+
+        .description {
+            width: 85%;
+            padding: 22px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-container {
+        font-size: 0.8rem;
+
+        .my-img {
+            width: 30%;
+        }
+
+        .description {
+            width: 70%;
+            padding: 22px;
+        }
+    }
+}
+
+@media (max-width: 1030px) {
+    .about-container {
+        .my-img {
+            width: 35%;
+        }
+
+        .description {
+            width: 65%;
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    .about-container {
+        .my-img {
+            width: 50%;
+        }
+
+        .description {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .about-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+
+        .my-img {
+            padding-top: 12px;
+            width: 30%;
+
+            img {
+                border-radius: 8px;
+            }
+        }
+
+        .description {
+            width: 100%;
+            padding: 12px;
+        }
+    }
+}
+
+@media (max-width: 330px) {
+    .about-container {
+        font-size: 0.7rem;
+
+        .my-img {
+            display: none;
+        }
+    }
+}

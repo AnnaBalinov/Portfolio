@@ -1,0 +1,154 @@
+.contact-cmp {
+    .form-container {
+        background-color: $clearGray;
+        border-radius: 4px;
+
+        .txt {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $mediumTraPurple;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        form {
+            width: 100%;
+            font-family: quicksand-bold, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            .l-i {
+                display: block;
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                margin-top: 4px;
+                border: 1px solid $niceGray;
+                border-radius: 4px;
+                resize: none;
+                max-height: 100px;
+                transition: 0.3s;
+
+                &:hover {
+                    outline: 1px solid $mainTraPurple;
+                }
+                &:focus {
+                    outline: 1px solid $mainTraPurple;
+                }
+            }
+
+            .submit-btn {
+                font-family: quicksand-regular, sans-serif;
+                margin: 8px auto 0 auto;
+                color: #fff;
+                border: none;
+                background-color: $mediumPurple;
+                border-radius: 16px;
+                width: 120px;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: $clearPurple;
+                }
+            }
+        }
+    }
+
+    footer {
+        font-size: 0.6rem;
+        width: 100%;
+        position: absolute;
+        bottom: 4px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 830px) {
+    .form-container {
+        width: 98%;
+        font-size: 0.8rem;
+
+        .txt{
+            font-size: 2rem;
+        }
+
+        form {
+            padding: 12px 24px 24px 24px;
+
+            .l-i {
+                width: 25%;
+            }
+
+            input,
+            textarea {
+                padding: 8px 12px;
+            }
+            
+            .submit-btn {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 830px) {
+    .form-container {
+        width: 98%;
+        font-size: 0.8rem;
+
+        .txt{
+            font-size: 2rem;
+        }
+
+        form {
+            padding: 12px;
+
+            .l-i {
+                width: 35%;
+            }
+
+            input,
+            textarea {
+                padding: 6px 22px;
+            }
+         
+            .submit-btn {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 530px) {
+    .form-container {
+
+        .txt{
+            font-size: 1.2rem;
+        }
+
+        form {
+            .l-i {
+                width: 60%;
+            }
+
+            input,
+            textarea {
+                padding: 4px 8px;
+            }
+    
+            .submit-btn {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+        }
+    }
+}
