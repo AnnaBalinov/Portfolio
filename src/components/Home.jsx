@@ -5,7 +5,7 @@ export class Home extends Component {
         return (
             <section className="main-section home-cmp">
                 <div className="start">
-                    <h1>Hi there, I'm Anna!</h1>
+                    <h1>Hi, I'm Anna!</h1>
                     <h2>
                     A passionate Full-Stack developer who also enjoys design and 
                     has a limitless desire to learn and create.
