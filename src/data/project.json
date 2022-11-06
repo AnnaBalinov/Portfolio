@@ -2,7 +2,7 @@
     "my-projects": [
         {
             "name": "Tasko ",
-            "description": "is a task management Web App that organizes your ideas into boards, based on Trello. this is my Bootcamp graduation project that was Written together with my two awesome teammates. We tried our best to make a pixel-perfect Trello clone and implemented most of the features that Trello has. The app is based on Vue.js / Vite for the frontend. For the backend, we used Node.js with Express and Socket.io for real-time updates.",
+            "description": "Is a task management Web App that organizes your ideas into boards, based on Trello. this is my Bootcamp graduation project that was Written together with my two awesome teammates. We tried our best to make a pixel-perfect Trello clone and implemented most of the features that Trello has. The app is based on Vue.js / Vite for the frontend. For the backend, we used Node.js with Express and Socket.io for real-time updates.",
             "img-title": "tasko-web.png",
             "technologies": [
                 "HTML",
@@ -31,27 +31,23 @@
                 "redux"
             ],
             "Links": {
-                "website": "https://www.w3schools.com/",
+                "website": "https://annabalinov.github.io/Infocrypt/#/contact/",
                 "github": "https://github.com/AnnaBalinov/Infocrypt"
             }
         },
         {
-            "name": "Dogstegram ",
-            "description": "is a task management Web App that organizes your ideas into boards, based on Trello. this is my Bootcamp graduation project that was Written together with my two awesome teammates. We tried our best to make a pixel-perfect Trello clone and implemented most of the features that Trello has. The app is based on Vue.js / Vite for the frontend. For the backend, we used Node.js with Express and Socket.io for real-time updates.",
-            "img-title": "tasko-web.png",
+            "name": "Portfolio ",
+            "description": "This is my portfolio project. I am very proud of it and I really enjoyed building it. Most of it is mainly based on design, and even though I am new in the field, I wanted to create an innovative, refined aesthetic design.",
+            "img-title": "portfolio-web.png",
             "technologies": [
                 "HTML",
                 "Sass",
                 "JavaScript",
-                "VUE",
-                "Vite",
-                "Vuex",
-                "Node.js",
-                "MongoDB"
+                "React"
             ],
             "Links": {
-                "website": "https://www.w3schools.com/",
-                "github": "https://www.eol.co.il/"
+                "website": "https://annabalinov.github.io/portfolio/",
+                "github": "https://github.com/AnnaBalinov/portfolio"
             }
         }
     ]
