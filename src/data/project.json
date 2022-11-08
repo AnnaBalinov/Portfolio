@@ -15,7 +15,7 @@
                 "MongoDB"
             ],
             "Links": {
-                "website": "https://tasko-proj.herokuapp.com/",
+                "website": "https://tasko-proj.herokuapp.com",
                 "github": "https://github.com/isabelmill/Tasko-Front-End"
             }
         },
@@ -31,7 +31,7 @@
                 "redux"
             ],
             "Links": {
-                "website": "https://annabalinov.github.io/Infocrypt/#/contact/",
+                "website": "https://annabalinov.github.io/Infocrypt",
                 "github": "https://github.com/AnnaBalinov/Infocrypt"
             }
         },
@@ -46,7 +46,7 @@
                 "React"
             ],
             "Links": {
-                "website": "https://annabalinov.github.io/portfolio/",
+                "website": "https://annabalinov.github.io/portfolio",
                 "github": "https://github.com/AnnaBalinov/portfolio"
             }
         }
