@@ -39,7 +39,7 @@ export class About extends Component {
                         </div>
 
                         <div className="resume">
-                            <a href="/static/media/resume.a9118fb9501fc31c38d4.pdf" download="">
+                            <a href={require('../assets/files/anna-balinov-cv.pdf')} download="">
                                 Download Resume</a>
                             <div className="social-links">
                                 <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anna-balinov" className="social-icon">
