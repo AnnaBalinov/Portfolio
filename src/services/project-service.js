@@ -1,13 +1,9 @@
+const projects = require('../data/project.json')
 
-
-const gProjects = require('../data/project.json')
+function query() {
+    return Promise.resolve(projects)
+}
 
 export const projectService = {
     query,
-}
-
-function query() {
-    var projects = JSON.parse(JSON.stringify(gProjects))
-
-    return Promise.resolve(projects)
 }

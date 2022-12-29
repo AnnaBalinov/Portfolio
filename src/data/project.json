@@ -15,39 +15,44 @@
                 "MongoDB"
             ],
             "Links": {
-                "website": "https://tasko-proj.herokuapp.com",
-                "github": "https://github.com/isabelmill/Tasko-Front-End"
+                "website": "https://tasko.onrender.com",
+                "github": "https://github.com/AnnaBalinov/Tasko-frontend"
             }
+
+        },
+        {
+            "name": "Weather",
+            "description": "Fully responsive web app, built using React, allows users to easily search for and view real-time weather forecasts for cities around the world. The app features an intuitive city search with autocomplete functionality, allowing users to quickly find the forecast for their desired location. In addition, users can save their favorite cities to easily access their weather forecasts at a later time. With the most up-to-date weather data and a sleek, user-friendly interface, this app is the perfect tool for staying informed and prepared for any weather conditions. Built with AccuWeather-API.",
+            "img-title": "weather-web.png",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Redux",
+                "Hooks"
+            ],
+            "Links": {
+                "website": "https://annabalinov.github.io/anna-balinov-21-12-2022",
+                "github": "https://github.com/AnnaBalinov/anna-balinov-21-12-2022"
+            }
+
         },
         {
             "name": "Infocrypt ",
-            "description": "This is my first project in React. It is a platform where you can see information about digital currencies and transfer coins to your contacts. In addition, there is CRUD on the contacts where you can add, update, and delete them. Check out trading up-to-date cryptocurrency data such as current price or relevant news. For this project to work I used the 'Alpha Vantage' API from rapid-api.",
+            "description": "A fully responsive Digital Wallet web app, built using React, provides users a platform for managing financial transactions. With the ability to easily add funds to their wallet balance, users can stay up-to-date on the latest currency exchange rates and make transfers to demo contacts with just a few clicks. The app also offers full CRUD functionality for managing contacts, allowing users to add, update, and delete contacts as needed. Built with CoinGecko-API.",
             "img-title": "infocrypt-web.png",
             "technologies": [
                 "HTML",
                 "Sass",
                 "JavaScript",
                 "React",
-                "redux"
+                "Redux",
+                "Hooks"
             ],
             "Links": {
                 "website": "https://annabalinov.github.io/Infocrypt",
                 "github": "https://github.com/AnnaBalinov/Infocrypt"
-            }
-        },
-        {
-            "name": "Portfolio ",
-            "description": "This is my portfolio project. I am very proud of it and I really enjoyed building it. Most of it is mainly based on design, and even though I am new in the field, I wanted to create an innovative, refined aesthetic design.",
-            "img-title": "portfolio-web.png",
-            "technologies": [
-                "HTML",
-                "Sass",
-                "JavaScript",
-                "React"
-            ],
-            "Links": {
-                "website": "https://annabalinov.github.io/portfolio",
-                "github": "https://github.com/AnnaBalinov/portfolio"
             }
         }
     ]
