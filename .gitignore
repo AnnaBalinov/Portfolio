@@ -12,6 +12,7 @@
 /build
 
 .vscode
+project.json
 
 # misc
 .DS_Store
@@ -26,5 +27,5 @@ yarn-error.log*
 
 # Editor directories and files
 .vscode/*
-project.json
+
 
