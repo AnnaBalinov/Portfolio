@@ -13,7 +13,11 @@ html {
 	width: 100%;
 	color: $mainFont;
 	font-size: calc(15px + 0.390625vw);
-	overflow: hidden;
+	overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 li {
